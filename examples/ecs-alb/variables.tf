@@ -41,6 +41,5 @@ variable "admin_cidr_ingress" {
   description = "CIDR to allow tcp/22 ingress to EC2 instance"
 }
 variable "all_cidr"
-  default = ["0.0.0.0/0"]
-  type = list
+  default = "0.0.0.0/0"
 }
